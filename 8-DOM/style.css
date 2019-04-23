@@ -1,3 +1,5 @@
-body {
-    background: olive;
+a {
+    display: block;
+    width: 30px;
+    height: 100px;
 }
