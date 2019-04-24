@@ -1,3 +1,38 @@
-body {
-    background: red;
+main div, header, footer {
+    height: 150px;
+    margin-bottom: 30px;
+    background: blue;
+}
+
+header{
+    width: 600px;
+}
+
+footer {
+    width: 600px;
+}
+
+.col-1{
+    width: 285px;
+    background-color: red;
+    float: left;
+}
+
+.col-2{
+    width: 285px;
+    background-color: green;
+    float: right;
+}
+
+.col-3{
+    background-color: black;
+    width: 400px;
+    clear: both;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main {
+    width: 600px;
+    margin: auto;
 }
