@@ -1,32 +1,25 @@
-section {
-    position: relative;
-    margin: auto;
-    width: 600px;
-    height: 600px;
-    background-color: blue;
-}
-
-.badge {
-    margin-top: 20px;
-    background: #b5b5b5;
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border-radius: 3px;
-}
-
-.badge .label {
-    background: red;
-    color: white;
-    border: solid 2px white;
+.notification{
+    border: solid 1px black;
+    margin: 20px;
     position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 15px;
-    height: 20px;
-    border-radius: 13px;
-    text-align: center;
-    padding: 0 4%;
     font-family: Arial, Helvetica, sans-serif;
-    transform: translate(50%, -50%);
+}
+
+.notification-title{
+    font-weight: bold;
+    margin: inherit;
+    display: block;
+}
+
+.notification a {
+    position: absolute;
+    color: lightgray;
+    text-decoration: none;
+    right: 10px;
+    top: 10px;
+}
+
+.notification-content{
+    color: gray;
+    margin: inherit;
 }
