@@ -12,24 +12,23 @@ footer {
     width: 600px;
 }
 
-.col-1{
-    width: 285px;
-    background-color: red;
+.cell{
+    width: 180px;
     float: left;
+    margin-right: 30px;
 }
 
-.col-2{
-    width: 285px;
-    background-color: green;
-    float: right;
-}
-
-.col-3{
-    background-color: black;
-    width: 400px;
+header, footer {
+    width: 100%;
     clear: both;
-    margin: auto;
-    margin-bottom: 30px;
+}
+
+footer{
+    clear: both;
+}
+
+.cell:last-of-type{
+    margin-right: 0;
 }
 
 main {
