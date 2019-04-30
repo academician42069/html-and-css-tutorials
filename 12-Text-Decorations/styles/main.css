@@ -1,0 +1,32 @@
+/* MAIN FILE!!!! */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-family: 'Lobster'
+}
+
+#one {
+    font-family: 'PT Sans'
+}
+
+#two {
+    font-family: 'PT Sans Bold'
+}
+
+#three {
+    font-family: 'PT Sans Italic'
+}
+
+#four {
+    font-family: 'PT Sans Bold Italic'
+}
