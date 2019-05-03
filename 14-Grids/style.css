@@ -16,10 +16,10 @@ section div {
     background-color: olive;
 }
 
-.header {
-    grid-column: 1 / 4
+.col-3 {
+    grid-column: span 3;
 }
 
-.footer {
-    grid-column: 1 / 4
+.col-2 {
+    grid-column: span 2;
 }
